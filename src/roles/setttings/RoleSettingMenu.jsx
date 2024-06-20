@@ -12,7 +12,6 @@ const RoleSettingMenu = () => {
     <ManagerWidgetRBAC
       context={context}
       permissions={[READ_ROLES, CREATE_ROLES, READ_PERMISSIONS]}
-      or={true}
     >
       <NavDropdown title="Role Management">
         <ManagerWidgetRBAC context={context} permissions={[READ_ROLES]}>
